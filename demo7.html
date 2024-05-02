@@ -7,11 +7,34 @@
     <link rel="stylesheet" href="demo7.css">
   </head>
   <body>
-    <div class="container">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-    </div> 
-  </body>
-</html>
+    <form action="">
+<p>
+Username <input type="text" required value="user1" readonly>
+</p>
+<p>
+    Password <input type="password" required>
+    </p>
+    <p> 
+        Name<input type="text" placeholder="Vui long nhap ho ten" autofocus>
+        </p>
+
+        <p>
+            Tel <input type="text" pattern="[0-9]{10}$">
+        </p>
+<!--Dong 21, value la gia tri auto fill -->.
+<!--Phan biet text va password type ben tren -->.
+<!--Autofocus co nghia la khi lauch thi no se auto cho box do type dau tien -->.
+<!--De y cau truc cua type Tel=> pattern cau truc su dung ntn -->.
+        City:
+        <select name="City">
+<option value="">Hanoi</option>
+<option value="">Danang</option>
+<option value="">Saigon</option>
+<option value="">Cantho</option>
+
+
+        </select>
+        <input type="submit">
+        </form>
+      </body>
+    </html>
